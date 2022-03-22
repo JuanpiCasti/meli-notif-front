@@ -5,7 +5,7 @@ setInterval(async function (){
 
     if(time.length != '' & notif.sent != time) {
         console.log('hola')
-        let audio = new Audio('../static/that-was-quick-606.mp3');
+        let audio = new Audio('static/that-was-quick-606.mp3');
         audio.play();
     };
     console.log(time)
